@@ -8,9 +8,6 @@ import * as R from "ramda";
 })
 export class LoginComponent implements OnInit {
 
-  username: string = '';
-  password: string = '';
-
   constructor() {
   }
 
