@@ -1,5 +1,5 @@
 import {Component, OnInit} from "@angular/core";
-const R = require('ramda');
+import * as R from "ramda";
 
 @Component({
   selector: 'app-login',
@@ -20,9 +20,9 @@ export class LoginComponent implements OnInit {
   login(username, password) {
 
     if (!R.isEmpty(username) && !R.isEmpty(password)) {
-      debugger;
+      /* Call Login service */
     } else {
-
+      /* Show error message */
     }
 
   }
